@@ -3,6 +3,7 @@
 
 def hello (name,age=21):
     print("Hello "+ name + ", you are " + str(age) + " years old.")
+#Here (name -> positional argument, age-> keyword argument )
 
 
 #hello("ATG",24)
@@ -21,3 +22,5 @@ hello(lst,dict_val)
 
 hello(*lst,**dict_val)
 #considering (first as postional argument,second as keyword argument)
+
+hello("ATG","NEPALI",age=22,dob =1532 )
