@@ -1,1 +1,0 @@
-hello(*lst,**dict_val)
